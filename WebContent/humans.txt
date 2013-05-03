@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Nikolas Tay -- Web Developer -- https://github.com/dynadolos
+    Cheong Ren Hann -- Web Developer --
+
+# THANKS
+
+    SPMovy
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JSP
+    jQuery, Modernizr
