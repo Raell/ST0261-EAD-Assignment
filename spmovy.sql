@@ -35,9 +35,11 @@ CREATE TABLE `spmovy`.`movie_timeslots` (
 );
 
 CREATE TABLE `spmovy`.`movie_comments` (
-    `comment_id` INT NOT NULL,
-    `content` VARCHAR(250) NOT NULL,
-    `movie_id` INT NOT NULL,
+	`comment_id` int(11) NOT NULL AUTO_INCREMENT,
+	`content` varchar(250) NOT NULL,
+	`movie_id` int(11) NOT NULL,
+	`commenter` varchar(50) NOT NULL,
+	`time` datetime NOT NULL,
     PRIMARY KEY (`comment_id`),
     FOREIGN KEY (`movie_id`)
         REFERENCES `spmovy`.`movie` (`movie_id`)
