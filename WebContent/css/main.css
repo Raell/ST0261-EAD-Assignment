@@ -4,7 +4,6 @@
    Author's custom styles
    ========================================================================== */
 
-
 ::-moz-selection {
     background-color: #dd2020;
     color: #fff;
@@ -14,46 +13,10 @@
     background-color: #dd2020;
     color: #fff;
 }
-}
 
-.full-search-bar form {
-	padding:0;
-	margin-left:25%;;
-	position:relative;
-	overflow:hidden;
-	width:50%;
-}
-
-.full-search-bar form .clearfix {
-	margin:0
-}
-
-.full-search-bar form input[type=text] {
-/* 	float:left; */
-	height:30px;
-	font-size:20px;
-	line-height:24px;
-	-webkit-border-radius:6px 0 0 6px;
-	-moz-border-radius:6px 0 0 6px;
-	border-radius:6px 0 0 6px;
-	border-right:0;
-	width:95%;
-	margin-bottom:0
-}
-
-.full-search-bar form button[type=submit] {
-	position:absolute;
-	right:0;
-	top:0;
-	width:46px;
-	height:40px;
-	-webkit-border-radius:0 6px 6px 0;
-	-moz-border-radius:0 6px 6px 0;
-	border-radius:0 6px 6px 0
-}
-
-body .mainpage {
-	background-image:url('img/wallpaper.png');
+.footer{
+    bottom:0;
+    position: fixed;
 }
 
 
